@@ -25,7 +25,7 @@ export class NotificationsComponent implements OnInit {
   showError() {
     this.toastr.error('This is an error toastr message!', 'Error');
   }
-  showToastr(positionClass) {
+  showToastr(positionClass: any) {
     this.toastr.info('Hello world!', 'Toastr fun!', {
       positionClass
     });
