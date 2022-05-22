@@ -7,7 +7,7 @@ import { AppService } from './services/services.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pro-dashboard-angular';
+  title = 'web';
 
   constructor(private appService: AppService) {}
   getClasses() {

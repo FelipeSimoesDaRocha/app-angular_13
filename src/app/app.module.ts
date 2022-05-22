@@ -16,7 +16,6 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { TablesComponent } from './pages/tables/tables.component';
 import { FormsComponent } from './pages/forms/forms.component';
 import { TypographyComponent } from './pages/typography/typography.component';
-import { MapsComponent } from './pages/maps/maps.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 
 @NgModule({
@@ -29,18 +28,18 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
     TablesComponent,
     FormsComponent,
     TypographyComponent,
-    MapsComponent,
-    NotificationsComponent
+    NotificationsComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
-    ToastrModule.forRoot()
-    ],
+    ToastrModule.forRoot(),
+  ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
